@@ -61,5 +61,22 @@ body {
     padding: 5px;
     margin: 5px;
     background-color: #202327;
+    color: white;
     border: solid white;
+}
+
+@media(min-width: 768px) {
+    .container {
+        height: 90vh;
+        width: 40vw;
+
+    }
+
+    .botaoCalcular {
+        width: 30vw;
+    }
+
+    .result {
+        width: 30vw;
+    }
 }
